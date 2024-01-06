@@ -14,32 +14,37 @@ export const Projects = () => {
       title: "Student Management System",
       description: "Design & Development",
       imgUrl: projImg1,
-      project_url:"https://github.com/imankit1234/student-management-system",
+      project_url: "https://github.com/imankit1234/student-management-system",
     },
     {
       title: "Crop Classification and reccomendation system",
       description: "Machine Learning",
       imgUrl: projImg2,
+      project_url: "https://github.com/imankit1234/harvest_help",
     },
     {
       title: "Lung Nodule Detection Using UNet and DenseNet",
       description: "Machine Learning",
       imgUrl: projImg3,
+      project_url: "https://github.com/imankit1234/Lung-Nodule-Detection-and-Classification-Using-UNet-and-DenseNet-",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      project_url: "https://github.com/imankit1234/Currency-Converter",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      project_url: "",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      project_url: "",
     },
   ];
 

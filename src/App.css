@@ -431,8 +431,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx img{
   height: 275px;
 }
+.proj-txtx:hover{
+  cursor: pointer;
+}
 .proj-imgbx:hover::before {
   height: 100%;
+}
+.checkoutbtn{
+  height: 42px;
+  width: 140px;
+  color: white;
+  background-color: rgb(110 50 165);
+  border-radius: 6px;
+  margin-bottom: 25px;
 }
 .proj-txtx {
   position: absolute;
