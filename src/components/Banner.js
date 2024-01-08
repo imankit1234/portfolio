@@ -58,7 +58,12 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Ankit`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Competitive Programmer", "C++ Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>👋 Hello, I'm Ankit Kumar, a Computer Science student at MIT World Peace University . I'm passionate about technology and have demonstrated my skills through various projects, showcasing a blend of academic excellence and hands-on experience. As a problem solver with a keen interest in coding and machine learning, I'm dedicated to continuous learning and innovation. Explore my portfolio to learn more about my academic journey and the tech projects that reflect my commitment to the field! </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.open('https://drive.google.com/file/d/1cilVdIIND5YSUiqiUv5Nx0VfSNX8Kft5/view?usp=drive_link', '_blank')} target="_blank">
+  Resume <ArrowRightCircle size={25} />
+</button>
+
+
+
               </div>}
             </TrackVisibility>
           </Col>

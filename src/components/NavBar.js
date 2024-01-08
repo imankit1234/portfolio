@@ -53,12 +53,12 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/imankit81/"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/imankit1234"><img src={navIcon2} alt="" /></a>
-                <a href="https://twitter.com/imankit81"><img src={navIcon3} alt="" /></a>
-                <a href="https://leetcode.com/imankit81/"><img src={navIcon4} alt="" /></a>
-                <a href="https://codeforces.com/profile/imankit81"><img src={navIcon5} alt="" /></a>
-                <a href="https://www.codechef.com/users/imankit81"><img src={navIcon6} alt="" /></a>
+                <a href="https://www.linkedin.com/in/imankit81/" target="_blank"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/imankit1234" target="_blank"><img src={navIcon2} alt="" /></a>
+                <a href="https://twitter.com/imankit81" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://leetcode.com/imankit81/" target="_blank"><img src={navIcon4} alt="" /></a>
+                <a href="https://codeforces.com/profile/imankit81" target="_blank"><img src={navIcon5} alt="" /></a>
+                <a href="https://www.codechef.com/users/imankit81" target="_blank"><img src={navIcon6} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

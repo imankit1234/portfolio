@@ -29,7 +29,7 @@ export const Projects = () => {
       project_url: "https://github.com/imankit1234/Lung-Nodule-Detection-and-Classification-Using-UNet-and-DenseNet-",
     },
     {
-      title: "Business Startup",
+      title: "Currency Converter",
       description: "Design & Development",
       imgUrl: projImg1,
       project_url: "https://github.com/imankit1234/Currency-Converter",
@@ -57,17 +57,17 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>I have done various projects in Full Stack Development  and  MAchine Learning Domain</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <p>I have done various projects in Full Stack Development  and  Machine Learning Domain</p>
+                <Tab.Container id="projects-tabs" defaultActiveKey="first">   
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">All</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Full Stack Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Machine Learning Projects</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -86,11 +86,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p>Full Stack Projects</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Machine Learning Projects </p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

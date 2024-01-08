@@ -17,10 +17,10 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-            <a href="https://www.linkedin.com/in/imankit81/"><img src={navIcon1} alt="" /></a>
-            <a href="https://github.com/imankit1234"><img src={navIcon2} alt="" /></a>
-            <a href="https://twitter.com/imankit81"><img src={navIcon3} alt="" /></a>
-              <a href="nks823001@gmail.com"><img src={navIcon7} alt="Icon" /></a>
+            <a href="https://www.linkedin.com/in/imankit81/"  target="_blank"><img src={navIcon1} alt="" /></a>
+            <a href="https://github.com/imankit1234"  target="_blank"><img src={navIcon2} alt="" /></a>
+            <a href="https://twitter.com/imankit81"  target="_blank"><img src={navIcon3} alt="" /></a>
+              <a href=" mailto:nks823001@gmail.com"  target="_blank"><img src={navIcon7} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
